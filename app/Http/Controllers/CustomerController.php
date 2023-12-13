@@ -44,51 +44,7 @@ class CustomerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        Customer::create(
-            [
-                "country" => "Morocco",
-                "state" => "OK",
-                "code" => "+212",
-                "phone" => "5201223456"
-            ],
-        );
-        Customer::create(
-            [
-                "country" => "Mozambique",
-                "state" => "OK",
-                "code" => "+258",
-                "phone" => "21123456"
-            ],
-        );
-        Customer::create(
-            [
-                "country" => "Nigeria",
-                "state" => "OK",
-                "code" => "+234",
-                "phone" => "66307367"
-            ],
-        );
-        Customer::create(
-            [
-                "country" => "Nigeria",
-                "state" => "OK",
-                "code" => "+234",
-                "phone" => "25100505"
-            ],
-        );
-        Customer::create(
-            [
-                "country" => "Nigeria",
-                "state" => "NOK",
-                "code" => "+234",
-                "phone" => "9284653698"
-            ],
-        );
-
-        return "Save data";
-    }
+  
 
     /**
      * Store a newly created resource in storage.
